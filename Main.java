@@ -1,27 +1,9 @@
-import java.util.*;
+public class Main {
 
-class Chien {
+  public static void main(String... args) {
+    Pilote pilote = new Pilote("pilote", 18);
+    Voiture voiture = new Voiture("Kia", 7450.88, pilote);
 
-  private String race;
-  private String couleur;
-  private int age;
-
-  /**
-   * Renvoie une chaine de caractere "aboiement"
-   * @return aboiement, chaine de caractère "aboeiment"
-   */
-  public String aboyer() {
-    return "aboiement";
+    System.out.println(voiture);
   }
-
-  /**
-   * Le chien dors
-   */
-  public void dormir() {
-    
-  }
-
-   
-
- 
 }
